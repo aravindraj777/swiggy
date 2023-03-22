@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'mulish',sans-serif;
+}.container{
+    display:flex;
+   
+}
+.inner1{
+    width: 50%;
+    height: 80vh;
+    background: #fff;
+    display: flex;
+    position:relative ;
+    
+    
+    
+    
+}.inner2{
+    width: 50%;
+    height: 80vh;
+    background-color: aqua;
+}.logo img{
+       height: 84px;
+    width: 240px;
+}.logo{
+    margin-left: 78px;
+    margin-top: 50px;
+}
+.sign a{
+height: 30px;
+    padding-left: 336px;
+    margin-top: 40px;
+}.btn1{
+    width: 166px;
+    height: 50px;
+    font-weight: bold;
+    padding-left: 72px;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    
+    
+}.btn2{
+    width: 111px;
+    height: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+}.sign{
+    margin-top: 68px;
+    margin-left: 120px;
+}.sign .btn1 :hover{
+    cursor: pointer;
+}.sign .btn2:hover{
+    cursor: pointer;
+    
+}
+.inner2 img{
+    height: 86.9vh;
+    width: 100%;
+}.inner2{
+    margin-left: 10px;
+}
+.wrt {
+    position: absolute;
+    top: 21%;
+    left: 14%;
+    margin-top: 60px;
+    
+}.wrt h1{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #282c3f;
+    font-size: 266%;
+}.wrt h2{
+     font-size: 22px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: 0.7px;
+    color: #686b78;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}.mailbx{
+    position: absolute;
+    top: 46%;
+    left: 14%;
+    margin-top: 63px;
+
+}.mailbx input{
+    height: 56px;
+    width: 490px;
+    border-color: rgb(246, 129, 87);
+    border-width: thin;
+    font-weight: bold;
+    padding-left: 27px;
+    font-size: large;
+}.mailbx button{
+    width: 129px;
+    height: 57px;
+    margin-left: -7px;
+    text-transform: uppercase;
+    background: #fc8019;
+    color: white;
+    border: 0;
+    padding-top: 4px;
+}.mailbx button:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+.mailbx h4{
+    color: #a9abb2;
+    margin-top: 31px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: -.2px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}.hh-4{
+    margin-top: 15px;
+    font-weight: 600;
+    color: #686b78;
+    letter-spacing: -.3px;
+    line-height: 1.5;
+    font-size: 16px;
+    
+
+}
+.container2{
+    margin-top: 48px;
+    width: 100%;
+    height: 50vh;
+    background-color: #271b1b;
+    display: flex;
+    justify-content: space-around;
+}.thmg img{
+    width: 105px;
+    height: 199px;
+}.cont h3{
+    color:#fff;
+    margin-top: 40px;
+    margin-left: -12px;
+    
+}.cont h5{
+    margin-top: 14px;
+    margin-left: -26px;
+    font-weight: 300;
+    color:#e0cbc1;
+}.container3{
+    padding: 0 20px;
+    position: relative;
+}
+.tot{
+    height: 90vh;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    
+ 
+    
+}.ficntnt{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+}.scntnt{
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    color:#7e808c
+    
+}.tcntnt img{
+    width: 179px;
+    height: 54px;
+    margin-top: 49px;
+
+}#appstore{
+    margin-left: 20px;
+}.frmobb{
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 330px;
+
+}.fsmobb{
+    position: absolute;
+    width: 25%;
+     bottom: 0;
+     right: -3px;
+    
+
+}.lastdv{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}.fstlst div{
+    color: #a9abb2;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-left: 18px;
+}.lis  a{
+    color:#fff;
+    text-decoration: none;
+    padding-top: 10px;
+     
+}
+
+.scndlst div{
+    color: #a9abb2;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-left: 18px;
+
+}.lis{
+    margin: 20px ;
+}.thirdlst div{
+    color: #a9abb2;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-left: 18px;
+
+}.forlst img{
+    display: block;
+    width: 200px;
+    margin-top: 50px;
+}.forlst img:hover {
+    cursor: pointer;
+    
+}.bot{
+    display: flex;
+    height: 5vh;
+    background-color: #271b1b;
+    width: 100%;
+    border-top: 1px;
+    border-color: #fff;
+
+}.lne{
+    
+    color: #fff;
+}
+    
+
